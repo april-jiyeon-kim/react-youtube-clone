@@ -1,0 +1,29 @@
+[33mcommit 2748229fe071fb244fd72e62513ec5db9450e0ca[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: April <yeon19april@gmail.com>
+Date:   Thu Jan 6 16:40:57 2022 +0900
+
+    Search function
+
+[33mcommit 686724f6ef455d7762abe23fd777ff9efa03c60a[m
+Author: April <yeon19april@gmail.com>
+Date:   Thu Jan 6 16:19:35 2022 +0900
+
+    Style:Search UI
+
+[33mcommit cf0194bd8b7c5bbce9fe19373079567443066a6e[m
+Author: April <yeon19april@gmail.com>
+Date:   Wed Jan 5 23:07:29 2022 +0900
+
+    Make List Item
+
+[33mcommit 29e7d15a55b0448293b52caecbf0c2d67b2c3156[m
+Author: april-jiyeon-kim <yeon19april@gmail.com>
+Date:   Tue Jan 4 19:44:44 2022 +0900
+
+    Setup + Get Youtube videos using API
+
+[33mcommit ce92f1cbd7e7b8c9567293a9f9e8eebcd0b729e5[m
+Author: april-jiyeon-kim <yeon19april@gmail.com>
+Date:   Tue Jan 4 15:58:21 2022 +0900
+
+    Initialize project using Create React App
