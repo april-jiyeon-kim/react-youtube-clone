@@ -7,7 +7,7 @@ const SearchHeader = ({ onSearch }) => {
     const value = inputRef.current.value;
     onSearch(value);
   };
-  const onCLick = () => {
+  const onClick = () => {
     handleSearch();
   };
   const onKeyPress = (event) => {
@@ -28,7 +28,7 @@ const SearchHeader = ({ onSearch }) => {
         placeholder="Search..."
         onKeyPress={onKeyPress}
       />
-      <button className={styles.button} type="submit" onClick={onCLick}>
+      <button className={styles.button} type="submit" onClick={onClick}>
         <img
           className={styles.buttonImg}
           src="/images/search.png"
