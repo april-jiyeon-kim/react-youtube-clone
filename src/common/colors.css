@@ -1,6 +1,8 @@
 @value backgroundDark: #202020;
 @value color-backgroundLight:white;
 @value color-darkGray:#313131;
-@value color-mediumGray:#181818;
-@value color-lightGray:#e2e2e2;
+@value color-mediumGray:#d3d3d3;
+@value color-lightGray:#f2f2f2;
+@value color-backgroundGray:#f9f9f9;
 @value color-black:#121212;
+@value color-lightBlack:#030303;
