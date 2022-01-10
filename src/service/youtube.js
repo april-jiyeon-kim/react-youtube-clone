@@ -11,7 +11,11 @@ class Youtube {
         maxResults: 25,
       },
     });
-    return response.data.items;
+    const items = response.data.items.map((item) => ({
+      ...item,
+      category: this.channel(item.snippet.channelId),
+    }));
+    return items;
   }
 
   async search(query) {
@@ -27,6 +31,16 @@ class Youtube {
       ...item,
       id: item.id.videoId,
     }));
+  }
+
+  async channel(id) {
+    const response = await this.youtube.get("channels", {
+      params: {
+        part: "snippet",
+        id,
+      },
+    });
+    return response.data.items[0].snippet;
   }
 }
 export default Youtube;

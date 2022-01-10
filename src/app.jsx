@@ -22,6 +22,9 @@ function App({ youtube }) {
     [youtube]
   );
 
+  const home = () => {
+    setSelectedVideo(null);
+  };
   useEffect(() => {
     youtube
       .mostPopular() //
@@ -29,7 +32,7 @@ function App({ youtube }) {
   }, [youtube]);
   return (
     <div className={styles.app}>
-      <SearchHeader onSearch={search} />
+      <SearchHeader onSearch={search} onHome={home} />
       <section className={styles.content}>
         {selectedVideo && (
           <div className={styles.detail}>
